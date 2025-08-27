@@ -83,7 +83,7 @@ Steps you’ll execute:
 5. Train **LightGBM** regressor
 6. Compare metrics (MAE/RMSE)
 7. Use **SHAP** to interpret model predictions
-
+![Loss Distribution](docs/loss_distribution.png)
 ---
 
 ## Evaluation
@@ -96,7 +96,7 @@ Steps you’ll execute:
 
 * **MAE Improvement:** 9.4%
 * **RMSE Improvement:** 7.5%
-
+![Predicted vs Actual](docs/pred_vs_actual.png)
 ---
 
 ## Feature Importance
@@ -110,7 +110,7 @@ Top 5 features by LightGBM:
 5. `cont11`
 
 *Continuous variables dominate the top ranks.*
-
+![Top Features](docs/feature_importance.png)
 ---
 
 ## Interpretability (SHAP)
@@ -125,7 +125,7 @@ explainer = shap.TreeExplainer(lgb_model)
 shap_values = explainer.shap_values(X_sample)
 shap.summary_plot(shap_values, X_sample)
 ```
-
+![SHAP Summary](docs/shap_summary.png)
 ---
 
 ## Dependencies
