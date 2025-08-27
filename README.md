@@ -1,6 +1,7 @@
 # Gradient Boosted Insurance Severity Model
 
 This project models insurance claim severity using gradient boosting techniques. Based on the Allstate Claims Severity dataset, the project demonstrates how advanced models like LightGBM can significantly outperform traditional linear models for predicting continuous target variables.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sama-Borhani/insurance-claim-severity-ml/blob/main/notebooks/Gradient_Boosted_Insurance_Severity_Model.ipynb)
 
 ---
 
