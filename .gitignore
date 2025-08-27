@@ -1,0 +1,19 @@
+# data & artifacts
+data/
+*.csv
+*.xlsx
+*.parquet
+models/
+*.pkl
+*.joblib
+
+# notebooks checkpoints
+.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.pyc
+
+# envs & secrets
+.env
+.venv/
