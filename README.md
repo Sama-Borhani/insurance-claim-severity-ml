@@ -69,7 +69,10 @@ unzip -q allstate-claims-severity.zip -d allstate-claims-severity
 
 ## Usage
 
-Open the notebook and run step-by-step
+Open the notebook and run step-by-step:
+Open the main notebook here:  
+[notebooks/Gradient_Boosted_Insurance_Severity_Model.ipynb](notebooks/Gradient_Boosted_Insurance_Severity_Model.ipynb)
+
 
 Steps you’ll execute:
 
