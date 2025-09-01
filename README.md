@@ -160,8 +160,9 @@ shap.summary_plot(shap_values, X_sample)
 
 ---
 
-## License
+##  License
 
+This project is licensed under the terms of the [MIT License](LICENSE).
 This project is shared for educational and research purposes. Please comply with Kaggle’s competition/data terms.
 
 
