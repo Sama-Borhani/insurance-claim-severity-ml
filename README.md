@@ -150,7 +150,7 @@ shap.summary_plot(shap_values, X_sample)
 └─ .gitignore
 ```
 
-> ⚠️ Don’t commit raw Kaggle data files (CSV). Load them at runtime.
+>  Don’t commit raw Kaggle data files (CSV). Load them at runtime.
 
 ---
 
